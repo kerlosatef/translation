@@ -11,7 +11,7 @@ This Flutter app allows users to translate text between Arabic and English. It s
 
 ## Screenshots
 
-![App Screenshot](assets/screenshots/app_screenshot.png)
+<img src="assets/screenshots/screenshots.jpg" width="400" height="500">
 
 ## Installation
 
