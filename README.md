@@ -8,7 +8,7 @@ This Flutter app allows users to translate text between Arabic and English. It s
 - **Text Copying**: Copy the entered or translated text to the clipboard.
 - **Language Swap**: Swap the source and target languages (Arabic and English).
 - **Responsive Design**: The app adjusts to different screen sizes for optimal viewing.
-
+- **Text-to-Speech**: Listen to the translated text in the selected language.
 ## Screenshots
 
 <img src="assets/screenshots/screenshots2.jpg" width="400" height="500">
@@ -44,10 +44,12 @@ flutter run
 ```
 
 ## Usage
-**Text Input**: Enter the text you want to translate in the provided text field.
-**Copy**: Tap the copy icon to copy the text to the clipboard.
-**Translate**: Tap the translate icon to translate the text.
-**Swap Languages**: Tap the swap icon to switch between Arabic and English.
+- **Text Input**: Enter the text you want to translate in the provided text field.
+- **Copy**: Tap the copy icon to copy the text to the clipboard.
+- **Translate**: Tap the translate icon to translate the text.
+- **Swap Languages**: Tap the swap icon to switch between Arabic and English.
+- **Text-to-Speech**: Listen to the translated text in the selected language.
+
 
 ## API
 This app uses the Google Cloud Translation API for text translation.
