@@ -1,0 +1,31 @@
+name: translation
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.17
+  google_cloud_translation: ^0.0.4
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.14.3"
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon.png"
+  min_sdk_android: 21 # android
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/flags/
+    - assets/icons/
