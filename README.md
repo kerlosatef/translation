@@ -22,7 +22,7 @@ This Flutter app allows users to translate text between Arabic and English. It s
 
 ### Steps
 
-1. Clone this repository:
+Clone this repository:
 ```bash
 git clone https://github.com/kerlosatef/translation-app.git
 ```
