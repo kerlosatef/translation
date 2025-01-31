@@ -11,7 +11,7 @@ This Flutter app allows users to translate text between Arabic and English. It s
 
 ## Screenshots
 
-![App Screenshot](assets/screenshots/app_screenshot.png)
+<img src="assets/screenshots/screenshots.jpg" width="400" height="500">
 
 ## Installation
 
@@ -22,7 +22,43 @@ This Flutter app allows users to translate text between Arabic and English. It s
 
 ### Steps
 
-1. Clone this repository:
+Clone this repository:
+```bash
+git clone https://github.com/kerlosatef/translation-app.git
+```
+Navigate to the project directory:
+```
+cd translation-app
+```
+Install dependencies:
+```
+flutter pub get
+```
+Replace the placeholder API key in lib/main.dart:
+```
+_translation = Translation(apiKey: 'Your_API_Key');
+```
+Run the app:
+```
+flutter run
+```
 
-   ```bash
-   git clone https://github.com/kerlosatef/translation-app.git
+## Usage
+**Text Input**: Enter the text you want to translate in the provided text field.
+**Copy**: Tap the copy icon to copy the text to the clipboard.
+**Translate**: Tap the translate icon to translate the text.
+**Swap Languages**: Tap the swap icon to switch between Arabic and English.
+
+## API
+This app uses the Google Cloud Translation API for text translation.
+
+## Contributing
+Feel free to fork this repository and submit pull requests to improve the app. If you encounter any issues, please create an issue in the GitHub repository.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+Created by @Kerlos_atef.
+
+
