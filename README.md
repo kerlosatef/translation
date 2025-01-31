@@ -1,7 +1,6 @@
 # Translation App
 
-This Flutter app allows users to translate text between Arabic and English. It supports copying and pasting translated text, as well as swapping languages.
-
+This Flutter app allows users to translate text between Arabic and English. It supports text-to-speech functionality for both languages. It supports copying and pasting translated text, as well as swapping languages.
 ## Features
 
 - **Text Translation**: Translate text from Arabic to English and vice versa.
