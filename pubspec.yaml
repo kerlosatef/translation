@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.17
+  flutter_tts: ^4.2.2
   google_cloud_translation: ^0.0.4
   url_launcher: ^6.3.1
 
@@ -29,3 +30,9 @@ flutter:
   assets:
     - assets/flags/
     - assets/icons/
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto_Condensed-Bold.ttf
+          weight: 700

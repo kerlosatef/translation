@@ -1,11 +1,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 <uses-permission android:name="android.permission.INTERNET" />
-  <queries>
+<uses-permission android:name="android.permission.BLUETOOTH"/>
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+<queries>
     <intent>
         <action android:name="android.intent.action.VIEW"/>
         <data android:scheme="https"/>
     </intent>
-  </queries>
+    <intent>
+        <action android:name="android.intent.action.TTS_SERVICE"/>
+    </intent>
+</queries>
 
   <application
       android:label="translation"
